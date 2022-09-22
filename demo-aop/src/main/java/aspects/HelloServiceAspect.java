@@ -32,11 +32,11 @@ public class HelloServiceAspect {
 
 //    @Around("execution(* services.HelloService.hello(..))")
 //    public Object around(ProceedingJoinPoint joinPoint) {
-//        System.out.println("A");
+//        System.out.println("BeforeThowing");
 //        Object result = null;
 //        try {
-//            result = joinPoint.proceed(new Object[]{"Bill"});
-//            System.out.println("B");
+//            result = joinPoint.proceed(new Object[]{"Skana"});
+//            System.out.println("Afterthorwing");
 //        } catch (Throwable throwable) {
 //            throwable.printStackTrace();
 //        }

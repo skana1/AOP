@@ -9,7 +9,7 @@ public class HelloService {
         String message = "Hello, " + name + "!";
 
         System.out.println( message );
-        //throw (new RuntimeException("RuntimeException!"));  to print @AfterThrowing
+        //throw (new RuntimeException("RuntimeException!"));  to print @AfterThrowing (void)
 
         return message;
     }
